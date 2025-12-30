@@ -139,5 +139,3 @@ if uploaded_file is not None:
     with st.expander("🔍 Lihat Detail Teknis (Untuk Penguji)"):
         st.write(f"**Probabilitas Kelas 0 (Asli):** {prob_asli:.4f}%")
         st.write(f"**Probabilitas Kelas 1 (Palsu):** {prob_palsu:.4f}%")
-        st.write("**Metode Preprocessing:** Resize(256) -> CenterCrop(224) -> Normalize")
-        st.write("**Model:** EfficientNet-B0 (Transfer Learning)")
